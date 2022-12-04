@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="11ff26da-e2c0-4210-a8df-2f6cbe1437f7" name="rongram.de" url="">
+        <fileTransfer accessType="SFTP" host="81.169.211.71" port="22" sshConfigId="d5d04829-3da4-44b0-86b6-db39e6f2ed2b" sshConfig="root@81.169.211.71:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
