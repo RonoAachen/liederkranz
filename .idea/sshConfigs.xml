@@ -3,6 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="81.169.211.71" id="d5d04829-3da4-44b0-86b6-db39e6f2ed2b" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="ssh.strato.de" id="02a526b4-183e-43ed-9167-ac690246d2a3" port="22" nameFormat="DESCRIPTIVE" username="sftp_ronald@liederkranz-wuerselen.de" useOpenSSHConfig="false" />
     </configs>
   </component>
 </project>

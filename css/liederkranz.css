@@ -1,10 +1,7 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
 .navbar {
     background-color:#FFE082;
+}
+
+.bg-liederkranz {
+    background-color: #FFE082 !important;
 }

@@ -2,8 +2,25 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="11ff26da-e2c0-4210-a8df-2f6cbe1437f7" name="rongram.de" url="">
+      <webServer id="11ff26da-e2c0-4210-a8df-2f6cbe1437f7" name="rongram.de" url="http://www.ronogram.de">
+        <fileTransfer rootFolder="/var/www/ronogram" accessType="SFTP" host="81.169.211.71" port="22" sshConfigId="d5d04829-3da4-44b0-86b6-db39e6f2ed2b" sshConfig="root@81.169.211.71:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9ba80fca-542c-489f-ae1a-e3c4f6b2b20f" name="root_ronogram.de" url="http://www.ronogram.de">
         <fileTransfer accessType="SFTP" host="81.169.211.71" port="22" sshConfigId="d5d04829-3da4-44b0-86b6-db39e6f2ed2b" sshConfig="root@81.169.211.71:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e3b98712-d723-444d-9c38-0ad4cda297ea" name="inplace" url="http://www.ronogram.de">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="c77b5868-426d-4647-9a04-b1ddeecd9240" name="sftp_liederkranz">
+        <fileTransfer accessType="SFTP" host="ssh.strato.de" port="22" sshConfigId="02a526b4-183e-43ed-9167-ac690246d2a3" sshConfig="sftp_ronald@liederkranz-wuerselen.de@ssh.strato.de:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
